@@ -1,23 +1,37 @@
 Cliente(
     Cpf,
     Nome,
-    EhVip
+    Tipo,
+    Endereco,
+    Contato
 )
 Carro(
     Placa,
     Modelo,
     Cor,
     Ano,
-    Cpf
+    Combustivel,
+    Quilometragem,
+    CpfCliente
 )
 Mercadoria(
     Codigo,
     QtdeEstoque,
-    Descricao
+    Descricao,
+    Valor
 )
 Ordem de Servico(
     Codigo (*Auto-incremento),
     Cliente,
     Carro,
-    Itens a Executar
+    Itens a Executar,
+    Funcionario responsavel
+)
+Funcionarios(
+    Nome,
+    Cpf,
+    Endereco,
+    DataNasc,
+    DataAdmissao,
+    Servicos executados
 )
