@@ -1,0 +1,23 @@
+Cliente(
+    Cpf,
+    Nome,
+    EhVip
+)
+Carro(
+    Placa,
+    Modelo,
+    Cor,
+    Ano,
+    Cpf
+)
+Mercadoria(
+    Codigo,
+    QtdeEstoque,
+    Descricao
+)
+Ordem de Servico(
+    Codigo (*Auto-incremento),
+    Cliente,
+    Carro,
+    Itens a Executar
+)

@@ -1,0 +1,18 @@
+O novo cliente é uma oficina mecânica de automóveis. 
+A missão é realizar um modelo conceitual para apresentar ao sr. Ruddy, 
+o proprietário da oficina.
+Os requisitos da oficina, para a realização do software são:
+
+° Será necessário um cadastro de clientes e de seus carros. 
+° Foi constatado um pequeno estoque de peças (de alto giro).
+° Há a necessidade de um controle sobre as atividades dos funcionários,
+o que requer o cadastro dos mesmos. 
+° A cada serviço deverá ser verificado quem o executou, que materiais usou 
+e quanto tempo levou. 
+° Não há agendamentos prévios, o cliente chega e é atendido por ordem de 
+chegada. 
+° Há uma lista de clientes VIPs, que possuem preferência de atendimento. 
+° Precisará, ainda, considerar os tipos de clientes (empresas terão descontos 
+especiais). 
+° O controle de pagamento do conserto foi postergado, ou seja, o cliente 
+ainda não quer esse tipo de controle. 
