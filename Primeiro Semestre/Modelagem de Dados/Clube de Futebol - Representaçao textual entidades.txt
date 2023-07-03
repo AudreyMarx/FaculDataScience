@@ -1,0 +1,20 @@
+Jogo (#numeroJogo, data, &Codadversario, &estadioId, &cidadeID, 
+Placar final, &IDtecnico, &CodCampeonato)
+
+eventosDOjogo (#CodEvento, &numeroJogo, &IDeventoOcorrido)
+
+evento ocorrido (#IDeventoOcorrido, descrição)
+
+adversario (#CodAdversario, nome)
+
+estadio (#IDestadio, nome)
+
+cidade (#CodCidade, nome, &siglaUF)
+
+estado (#siglaUF, nome)
+
+campeonato (#CodCampeonato, nome)
+
+tecnico (#CodTecnico, nome)
+
+Jogador (#IDjogador, numero da camisa, nome, posição)

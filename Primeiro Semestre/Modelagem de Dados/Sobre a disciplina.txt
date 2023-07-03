@@ -1,0 +1,22 @@
+Sobre a disciplina
+Aprendi nesta disciplina os fundamentos dos bancos de dados e como realizar uma 
+modelagem eficaz. Além disso, conheci e realizei os relacionamentos entre
+entidades de um banco de dados, possibilitando aplicar no projeto de novos 
+softwares e criar soluções arrojadas para os clientes. 
+
+Na Unidade 1, conheci os fundamentos de bancos de dados. Aprendi os conceitos
+sobre o Sistema Gerenciador de Banco de Dados (SGBD), um software fundamental
+para os desenvolvedores de sistemas. Fui apresentada aos elementos de um 
+banco de dados relacional e aos softwares de tomada de decisão.
+
+Na Unidade 2, conheci os procedimentos essenciais para modelagem de banco de
+dados, regras que precisaram ser aplicadas nos modelos a serem implementados.
+Pude também observar as várias notações gráficas dos diagramas.
+
+Estratégias de modelagens e a utilização do UML foram abordadas na Unidade 3.
+As funcionalidades das ferramentas CASEs (do inglês Computer-Aided Software 
+Engineering) foram demonstradas, permitindo que a modelagem tenha um resultado 
+mais profissional.
+
+Na Unidade 4, estudei a normalização dos dados, aplicando regras que serão 
+utilizadas frequentemente em projetos de modelagem de dados.

@@ -1,0 +1,9 @@
+Um clube de futebol regional, está procurando se modernizar, 
+querem entrar para a segunda divisão. Com um banco de dados, armazenando as
+fichas de controle de cada jogo, o time poderá organizar-se para os 
+campeonatos, mantendo um histórico dos jogos realizados e da atuação dos
+seus jogadores.
+
+Após algumas visitas à empresa, foram recolhidos vários documentos. 
+Um documento em especial será utilizado para o controle de informações dos
+jogadores, jogos e resultados.
