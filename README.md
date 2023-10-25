@@ -5,3 +5,5 @@ Disciplinas já concluídas:
 * Lógica Computacional
 * Modelagem de Dados
 * Matemática Instrumental
+* Pesquisa Operacional
+* Sociedade Brasileira e Cidadania
