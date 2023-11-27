@@ -7,3 +7,4 @@ Disciplinas já concluídas:
 * Matemática Instrumental
 * Pesquisa Operacional
 * Sociedade Brasileira e Cidadania
+* Competências para a Vida
