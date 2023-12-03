@@ -12,7 +12,6 @@ class Fila:    #constroi uma fila usando listas encadeadas
         return str(self.primeiro)
     def push(self, valor):  #adc itens na fila
         item = Item(valor)
-
         if self.primeiro:   #verifica se existe um item na fila
             #o valor proximo do ultimo item atual recebe o valor atual de
             self.ultimo.proximo = item

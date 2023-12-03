@@ -3,18 +3,13 @@ class NoNArio:
         self.valor = valor
         self.filhos = []
 def imprimir_arvore_naria(no, prefixo="", direcao=""):
-    if no is not None:
-        # Imprime o valor do nó com a direção da aresta
-        print(f"{prefixo}({direcao}) {no.valor}")
-
-        # Chama recursivamente para cada filho
-        for i, filho in enumerate(no.filhos):
+    if no is not None:        
+        print(f"{prefixo}({direcao}) {no.valor}")   # Imprime o valor do nó com a direção da aresta        
+        for i, filho in enumerate(no.filhos):   # Chama recursivamente para cada filho
             is_ultimo_filho = i == len(no.filhos) - 1
             novo_prefixo = prefixo + ("└── " if is_ultimo_filho else "├── ")
             nova_direcao = f"{i + 1}/{len(no.filhos)}"
             imprimir_arvore_naria(filho, novo_prefixo, nova_direcao)
-
-
 # Exemplo de uma árvore n-ária
 raiz_naria = NoNArio('A')
 raiz_naria.filhos.append(NoNArio('B'))

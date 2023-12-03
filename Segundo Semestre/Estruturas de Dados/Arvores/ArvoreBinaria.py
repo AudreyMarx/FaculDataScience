@@ -4,17 +4,10 @@ class NoBinario:
         self.esquerda = None
         self.direita = None
 def imprimir_arvore_binaria(no, prefixo="", direcao=""):
-    if no is not None:
-        # Imprime o valor do nó com a direção da aresta
-        print(f"{prefixo}({direcao}) {no.valor}")
-
-        # Chama recursivamente para a subárvore à esquerda
-        imprimir_arvore_binaria(no.esquerda, prefixo + "│   ", "L")
-
-        # Chama recursivamente para a subárvore à direita
-        imprimir_arvore_binaria(no.direita, prefixo + "    ", "R")
-
-
+    if no is not None:        
+        print(f"{prefixo}({direcao}) {no.valor}")   # Imprime o valor do nó com a direção da aresta        
+        imprimir_arvore_binaria(no.esquerda, prefixo + "│   ", "L")    # Chama recursivamente para a subárvore à esquerda        
+        imprimir_arvore_binaria(no.direita, prefixo + "    ", "R")     # Chama recursivamente para a subárvore à direita
 # Exemplo de uma árvore binária
 raiz = NoBinario(1)
 raiz.esquerda = NoBinario(2)
