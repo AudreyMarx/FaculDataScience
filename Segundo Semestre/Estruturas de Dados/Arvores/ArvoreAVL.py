@@ -27,8 +27,25 @@ class VerticeAVL:
     def remover(self, chave):
         print("Remover {} (chave atual: {})".format(chave, self.chave))
         if self.chave == chave:
-            print()
-    
+            print("Achou {} para remover".format(chave))    #encontrou a chave a ser removida
+            if self.esquerdo and self.direito:  #ambos tem filhos
+                raiz_da_subarvore = self._remover_pai_de_dois_filhos()
+            elif self.esquerdo or self.direito: #tem ou filho esquerdo ou filho direito
+                raiz_da_subarvore = self._remover_pai_de_um_filho()
+            else:   #não tem filhos
+                raiz_da_subarvore = self._remover_folha()
+            return raiz_da_subarvore    #retorna o pai
+        raiz_da_subarvore = self
+        if chave < self.chave:  #se esquerdo existe, continua a busca pelo esquerdo
+            #senão a busca encerra e None é retornado
+            raiz_da_subarvore = self.esquerdo and self.esquerdo.remover(chave)
+        elif chave > self.chave:    #se direito existe, continua a busca pelo direito
+            #senão a busca encerra e None é retornado
+            raiz_da_subarvore = self.direito and self.direito.remover(chave)
+        if raiz_da_subarvore:
+            raiz_da_subarvore.atualizar_altura()
+            raiz_da_subarvore = raiz_da_subarvore.balancear()
+        return raiz_da_subarvore.pai or raiz_da_subarvore   #retorna o pai do raiz_subarvre se existir, senão retorna raiz_subarvore
     @property
     def altura(self):
         return self._altura
