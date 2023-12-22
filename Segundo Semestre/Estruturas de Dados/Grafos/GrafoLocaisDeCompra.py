@@ -1,3 +1,5 @@
+#Grafo com informações de quantas transações são realizadas por um cliente em cada local de compra
+#Afim de verificar a possibilidade de fraudes com transações fora do comum
 import matplotlib.pyplot as plt
 import networkx as nx
 

@@ -1,3 +1,4 @@
+#Grafo de clientes com suas contas bancárias
 import networkx as nx
 import matplotlib.pyplot as plt
 
@@ -13,6 +14,7 @@ class visualizacaoGrafo:
         nx.draw_networkx(G, node_color='lightgrey') #executa-se a função de desenho
         plt.show() #o grafo é desenhado na tela
 
+#CC = Conta Corrente / CP = Conta Poupança
 G = visualizacaoGrafo()
 G.adcionaAresta('Pedro', 'CP')
 G.adcionaAresta('Pedro', 'Carla')
