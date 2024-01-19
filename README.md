@@ -9,3 +9,7 @@ Disciplinas já concluídas:
 * Pesquisa Operacional
 * Sociedade Brasileira e Cidadania
 * Competências para a Vida
+#### Segundo Semestre:
+* Cálculo Diferencial e Integral
+* Estrutura de Dados
+* Linguagem de Programação
