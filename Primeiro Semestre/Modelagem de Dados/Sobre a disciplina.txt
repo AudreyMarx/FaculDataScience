@@ -1,4 +1,3 @@
-Sobre a disciplina
 Aprendi nesta disciplina os fundamentos dos bancos de dados e como realizar uma 
 modelagem eficaz. Além disso, conheci e realizei os relacionamentos entre
 entidades de um banco de dados, possibilitando aplicar no projeto de novos 
