@@ -13,3 +13,9 @@ Disciplinas já concluídas:
 * Cálculo Diferencial e Integral
 * Estrutura de Dados
 * Linguagem de Programação
+* Estatística Experimental e Amostragem
+* Análise Combinatória
+* Introdução à Segurança da Informação
+* Estatística e Probabilidade com R
+#### Terceiro Semestre:
+* Banco de Dados NoSql
