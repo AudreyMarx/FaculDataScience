@@ -17,7 +17,7 @@ def main():
         for linha in arquivo:
             dados_modificados.append(linha.strip().upper())  # Exemplo de manipulação: converter para maiúsculas
     
-    with open("meu_arquivo.txt", "w") as arquivo:
+    with open("meu_arquivo.txt", "w", encoding="utf-8") as arquivo:
         for linha in dados_modificados:
             arquivo.write(linha + "\n")
     
